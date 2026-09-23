@@ -23,7 +23,7 @@ This repository documents weekly practical lab experiments focusing on classical
 
 ---
 
-## 🗂️ Repository Structure
+##  Repository Structure
 
 ```text
 advanced-machine-learning-experiments/
