@@ -18,6 +18,7 @@ This repository documents weekly practical lab experiments focusing on classical
 | **02** | Linear Regression & Iris Classification | [`exp2_linear_regression_iris_classification.ipynb`](./exp2_linear_regression_iris_classification.ipynb) | Ordinary Least Squares, hyper-plane fitting, feature mapping | MSE, RMSE, $R^2$ Score | ✅ Completed |
 | **03** | Decision Tree Classifier (ID3) | [`exp_3_decision_tree_ID3.ipynb`](./exp_3_decision_tree_ID3.ipynb) | Information Gain, Shannon Entropy, recursive node splitting, tree pruning | Accuracy, Confusion Matrix | ✅ Completed |
 | **04** | Decision Tree Mushroom Classification | [`exp_4_decision-tree_mushroom-classification.ipynb`](./exp_4_decision-tree_mushroom-classification.ipynb) | Categorical feature encoding, Gini Impurity/Entropy, binary decision trees | Precision, Recall, Classification Report | ✅ Completed |
+| **05** | Random Forest Tree Variation | [`exp_5_Random_Forest_Tree_Variation.ipynb`](./exp_5_Random_Forest_Tree_Variation.ipynb) | Bagging ensemble, bootstrap aggregation, varying number of estimators (`n_estimators`), feature subsampling | Out-of-Bag (OOB) Score, Accuracy vs. Trees Curve | ✅ Completed |
 
 *(New experiments will be added as lab assignments are completed)*
 
@@ -34,3 +35,14 @@ advanced-machine-learning-experiments/
 ├── exp2_linear_regression_iris_classification.ipynb        # Exp 2: Linear Regression & Classification
 ├── exp_3_decision_tree_ID3.ipynb                          # Exp 3: Decision Tree via ID3 Algorithm
 └── exp_4_decision-tree_mushroom-classification.ipynb      # Exp 4: Decision Tree on Mushroom Dataset
+└── exp_5_Random_Forest_Tree_Variation.ipynb               # Exp 5: Random Forest Tree Variation Study
+```
+## Tech Stack & Dependencies:
+
+Runtime: Google Colab (Python 3)
+
+Data Manipulation: numpy, pandas
+
+Visualization: matplotlib, seaborn
+
+Machine Learning: scikit-learn
